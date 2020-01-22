@@ -1,0 +1,179 @@
+/* text */
+.header {
+  width: 100%;
+  padding: 8px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  background-color: #2c3636;
+  text-decoration: underline;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+div.col h1, h2, h3, h4, h5, p {
+  padding: 16px;
+}
+
+/* video */
+.video1 {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+  height: 750px;
+}
+
+.video h1 {
+  width: 100%;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-decoration: underline;
+  color: lightyellow;
+}
+
+div.news {
+  background-color: white;
+  border-radius: 4px;
+}
+
+div.news h1 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-align: center;
+}
+
+div.news p {
+  text-indent: 12px;
+}
+
+/* carousel */
+div.carouselcontainer {
+  height: 550px;
+  margin-bottom: 8px;
+}
+
+div.carouselcontainer div.carousel-item img {
+  height: 550px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+/* product */
+div.product {
+  background-color: white;
+  border-radius: 4px;
+}
+
+div.product h2 {
+  text-align: center;
+}
+
+div.product img {
+  width: 256px;
+  height: 144px;
+  margin-left: 16px;
+}
+
+div.product img:hover {
+  opacity: .5;
+}
+
+div.tournament {
+  background-color: white;
+  border-radius: 4px;
+}
+
+div.tournament h1 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-align: center;
+}
+
+div.tournament p {
+  text-indent: 12px;
+}
+
+div.tournament img {
+  width: 256px;
+  height: 144px;
+  margin-left: 16px;
+}
+
+.saftey h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.saftey img {
+  width: 100%;
+  margin: 16px;
+}
+
+/* footer socialicons */
+.footer .socialicons h3 {
+  text-align: center;
+}
+
+.footer .socialicons .imglinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .socialicons img {
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 20px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 16px;
+  /* Some padding */
+  border-radius: 50px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+@media only screen and (max-width: 800px) {
+  .video1 {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .video1 {
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=kylestyle.css.map */
