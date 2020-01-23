@@ -160,15 +160,15 @@ div.tournament {
 @media only screen and (max-width: 450px) {
     div.col h1, h2, h3, h4, h5, p {
         padding: 8px;
-        margin-top: 8px;
+        margin: 8px;
     }
 
     div.carouselcontainer {
-        height: 500px;
+        height: 550px;
         margin-bottom: 8px;
         
         div.carousel-item img {
-            height: 500px;
+            height: 550px;
             object-fit: scale-down;
         }
     }
