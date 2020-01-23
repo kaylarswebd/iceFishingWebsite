@@ -41,7 +41,6 @@ div.news {
 }
 
 div.news h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
   text-align: center;
 }
 
@@ -87,7 +86,6 @@ div.tournament {
 }
 
 div.tournament h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
   text-align: center;
 }
 
@@ -175,10 +173,6 @@ div.tournament img {
 }
 
 @media only screen and (max-width: 450px) {
-  div.col h1, h2, h3, h4, h5, p {
-    padding: 8px;
-    margin: 8px;
-  }
   div.carouselcontainer {
     height: 550px;
     margin-bottom: 8px;

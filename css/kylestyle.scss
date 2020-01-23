@@ -42,11 +42,13 @@ div.news {
     background-color: white;
     border-radius: 4px;
     h1 {
-        font-family: 'Sedgwick Ave Display', cursive; 
         text-align: center;
     }
     p {
         text-indent: 12px;
+    }
+    col.btn {
+        
     }
 }
 
@@ -85,7 +87,6 @@ div.tournament {
     background-color: white;
     border-radius: 4px;
     h1 {
-        font-family: 'Sedgwick Ave Display', cursive; 
         text-align: center;
     }
     p {
@@ -158,10 +159,7 @@ div.tournament {
 }
 
 @media only screen and (max-width: 450px) {
-    div.col h1, h2, h3, h4, h5, p {
-        padding: 8px;
-        margin: 8px;
-    }
+
 
     div.carouselcontainer {
         height: 550px;
