@@ -172,8 +172,17 @@ div.tournament img {
 }
 
 @media only screen and (max-width: 450px) {
+  div.col h1, h2, h3, h4, h5, p {
+    padding: 8px;
+    margin: 4px;
+  }
   .video1 {
     height: 250px;
   }
+}
+
+.saftey img {
+  width: 100px;
+  margin: 8px;
 }
 /*# sourceMappingURL=kylestyle.css.map */
