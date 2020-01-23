@@ -109,6 +109,9 @@ div.tournament img {
 .saftey img {
   width: 100%;
   margin: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* footer socialicons */
@@ -174,15 +177,25 @@ div.tournament img {
 @media only screen and (max-width: 450px) {
   div.col h1, h2, h3, h4, h5, p {
     padding: 8px;
-    margin: 4px;
+    margin-top: 8px;
+  }
+  div.carouselcontainer {
+    height: 500px;
+    margin-bottom: 8px;
+  }
+  div.carouselcontainer div.carousel-item img {
+    height: 500px;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   .video1 {
     height: 250px;
   }
-}
-
-.saftey img {
-  width: 250px;
-  margin: 8px;
+  .saftey img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+  }
 }
 /*# sourceMappingURL=kylestyle.css.map */
