@@ -60,6 +60,11 @@ div.carouselcontainer {
     }
 }
 
+#carouseltxt {
+    background-color: white;
+    border-radius: 4px;
+}
+
 /* product */
 div.product {
     background-color: white;
@@ -76,8 +81,6 @@ div.product {
         opacity: .5;
     }
 }
-
-
 
 // upcoming tournaments
 div.tournament {
@@ -159,11 +162,11 @@ div.tournament {
 
 
     div.carouselcontainer {
-        height: 550px;
+        height: 350px;
         margin-bottom: 8px;
         
         div.carousel-item img {
-            height: 550px;
+            height: 350px;
             object-fit: scale-down;
         }
     }

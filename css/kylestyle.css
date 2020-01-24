@@ -60,6 +60,11 @@ div.carouselcontainer div.carousel-item img {
      object-fit: scale-down;
 }
 
+#carouseltxt {
+  background-color: white;
+  border-radius: 4px;
+}
+
 /* product */
 div.product {
   background-color: white;
@@ -174,11 +179,11 @@ div.tournament img {
 
 @media only screen and (max-width: 450px) {
   div.carouselcontainer {
-    height: 550px;
+    height: 350px;
     margin-bottom: 8px;
   }
   div.carouselcontainer div.carousel-item img {
-    height: 550px;
+    height: 350px;
     -o-object-fit: scale-down;
        object-fit: scale-down;
   }
