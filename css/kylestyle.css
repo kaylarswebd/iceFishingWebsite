@@ -16,6 +16,11 @@ div.col h1, h2, h3, h4, h5, p {
   padding: 16px;
 }
 
+nav img {
+  width: 200px;
+  height: auto;
+}
+
 /* video */
 .video1 {
   -o-object-fit: fill;
@@ -178,6 +183,10 @@ div.tournament img {
 }
 
 @media only screen and (max-width: 450px) {
+  nav img {
+    width: 150px;
+    height: auto;
+  }
   div.carouselcontainer {
     height: 350px;
     margin-bottom: 8px;
