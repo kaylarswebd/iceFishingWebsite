@@ -76,6 +76,7 @@ div.carouselcontainer {
 #carouseltxt {
     background-color: white;
     border-radius: 4px;
+    margin: 4px;
 }
 
 /* product */
@@ -84,6 +85,9 @@ div.product {
     border-radius: 4px;
     h2 {
         text-align: center;
+    }
+    p {
+        text-indent: 12px;
     }
     img  {
         width: 256px;
@@ -99,28 +103,35 @@ div.product {
 div.tournament {
     background-color: white;
     border-radius: 4px;
-    h1 {
+    h2 {
         text-align: center;
-    }
-    p {
-        text-indent: 12px;
     }
     img {
         width: 256px;
         height: 144px;
         margin-left: 16px;
     }
+    img:hover  {
+        opacity: .5;
+    }
 }
 
 // saftey
 .saftey {
+    background-color: white;
+    border-radius: 4px;
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-indent: 12px;
+    }
     h1 {
         text-align: center;
         text-decoration: underline;
     }
     img {
         width: 100%;
-        margin: 16px;
         justify-content: center;
     }
 }
@@ -166,12 +177,22 @@ div.tournament {
   }
 
 @media only screen and (max-width: 800px) {
+    h1, h2, h3, h4, h5, p {
+        font-size: .9em;
+    }
+
+
     .video1 {
         height: 500px;
     }
 }
 
 @media only screen and (max-width: 450px) {
+    h1, h2, h3, h4, h5, p {
+        font-size: .8em;
+    }
+
+        // navigation
     nav {
         img{
             width: 150px;
@@ -179,6 +200,11 @@ div.tournament {
         }
     }
 
+    .video1 {
+        height: 250px;
+    }
+
+        // carousel
     div.carouselcontainer {
         height: 350px;
         margin-bottom: 8px;
@@ -187,10 +213,6 @@ div.tournament {
             height: 350px;
             object-fit: scale-down;
         }
-    }
-    
-    .video1 {
-        height: 250px;
     }
 
         // saftey
@@ -202,5 +224,15 @@ div.tournament {
             width: 225px;
         }
     }
-}
 
+        // footer
+    .footer {
+        .socialicons {
+            img {
+                width: 35px;
+                height: 35px;
+                margin: 4px;
+            }
+        }
+    }
+}

@@ -68,6 +68,7 @@ div.carouselcontainer div.carousel-item img {
 #carouseltxt {
   background-color: white;
   border-radius: 4px;
+  margin: 4px;
 }
 
 /* product */
@@ -78,6 +79,10 @@ div.product {
 
 div.product h2 {
   text-align: center;
+}
+
+div.product p {
+  text-indent: 12px;
 }
 
 div.product img {
@@ -95,18 +100,31 @@ div.tournament {
   border-radius: 4px;
 }
 
-div.tournament h1 {
+div.tournament h2 {
   text-align: center;
-}
-
-div.tournament p {
-  text-indent: 12px;
 }
 
 div.tournament img {
   width: 256px;
   height: 144px;
   margin-left: 16px;
+}
+
+div.tournament img:hover {
+  opacity: .5;
+}
+
+.saftey {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.saftey h2 {
+  text-align: center;
+}
+
+.saftey p {
+  text-indent: 12px;
 }
 
 .saftey h1 {
@@ -116,7 +134,6 @@ div.tournament img {
 
 .saftey img {
   width: 100%;
-  margin: 16px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -177,15 +194,24 @@ div.tournament img {
 }
 
 @media only screen and (max-width: 800px) {
+  h1, h2, h3, h4, h5, p {
+    font-size: .9em;
+  }
   .video1 {
     height: 500px;
   }
 }
 
 @media only screen and (max-width: 450px) {
+  h1, h2, h3, h4, h5, p {
+    font-size: .8em;
+  }
   nav img {
     width: 150px;
     height: auto;
+  }
+  .video1 {
+    height: 250px;
   }
   div.carouselcontainer {
     height: 350px;
@@ -196,14 +222,16 @@ div.tournament img {
     -o-object-fit: scale-down;
        object-fit: scale-down;
   }
-  .video1 {
-    height: 250px;
-  }
   .saftey img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 225px;
+  }
+  .footer .socialicons img {
+    width: 35px;
+    height: 35px;
+    margin: 4px;
   }
 }
 /*# sourceMappingURL=kylestyle.css.map */
