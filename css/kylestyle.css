@@ -2,7 +2,7 @@
 .header {
   width: 100%;
   padding: 8px;
-  margin-top: 32px;
+  margin-top: 16px;
   margin-bottom: 8px;
   border-radius: 12px;
   color: white;
@@ -164,6 +164,8 @@ div.tournament img:hover {
 }
 
 #myBtn {
+  background-color: #428bca;
+  color: white;
   display: none;
   /* Hidden by default */
   position: fixed;

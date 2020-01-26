@@ -4,7 +4,7 @@ $headercolor: rgb(44, 54, 54);
 .header {
     width: 100%;
     padding: 8px;
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 8px;
     border-radius: 12px;
     color: white;
@@ -159,6 +159,8 @@ div.tournament {
 
 // back to top button
 #myBtn {
+    background-color: rgb(66,139,202);
+    color: white;
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
