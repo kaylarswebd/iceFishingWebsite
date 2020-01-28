@@ -12,12 +12,7 @@
   font-family: 'Sedgwick Ave Display', cursive;
 }
 
-div.col h1,
-h2,
-h3,
-h4,
-h5,
-p {
+div.col h1, h2, h3, h4, h5, p {
   padding: 16px;
 }
 
@@ -205,12 +200,7 @@ div.tournament p {
 }
 
 @media only screen and (max-width: 800px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p {
+  h1, h2, h3, h4, h5, p {
     font-size: .9em;
   }
   .video1 {
@@ -219,12 +209,7 @@ div.tournament p {
 }
 
 @media only screen and (max-width: 450px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p {
+  h1, h2, h3, h4, h5, p {
     font-size: .8em;
   }
   nav img {
