@@ -114,6 +114,10 @@ div.tournament img:hover {
   opacity: .5;
 }
 
+div.tournament p {
+  text-indent: 12px;
+}
+
 .saftey {
   background-color: white;
   border-radius: 4px;
