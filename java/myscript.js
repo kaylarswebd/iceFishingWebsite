@@ -1,45 +1,45 @@
 // news para show and hide function
-$(document).ready(function(){
-  $("#news1").click(function(){
+$(document).ready(function () {
+  $("#news1").click(function () {
     $("p.news1").hide();
   });
-  $("#news12").click(function(){
+  $("#news12").click(function () {
     $("p.news1").show();
   });
 });
 
-$(document).ready(function(){
-  $("#news2").click(function(){
+$(document).ready(function () {
+  $("#news2").click(function () {
     $("p.news2").hide();
   });
-  $("#news22").click(function(){
+  $("#news22").click(function () {
     $("p.news2").show();
   });
 });
 
-$(document).ready(function(){
-  $("#news3").click(function(){
+$(document).ready(function () {
+  $("#news3").click(function () {
     $("p.news3").hide();
   });
-  $("#news33").click(function(){
+  $("#news33").click(function () {
     $("p.news3").show();
   });
 });
 
-$(document).ready(function(){
-  $("#news4").click(function(){
+$(document).ready(function () {
+  $("#news4").click(function () {
     $("p.news4").hide();
   });
-  $("#news44").click(function(){
+  $("#news44").click(function () {
     $("p.news4").show();
   });
 });
 
-$(document).ready(function(){
-  $("#news5").click(function(){
+$(document).ready(function () {
+  $("#news5").click(function () {
     $("p.news5").hide();
   });
-  $("#news55").click(function(){
+  $("#news55").click(function () {
     $("p.news5").show();
   });
 });
@@ -49,7 +49,9 @@ $(document).ready(function(){
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction()
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
