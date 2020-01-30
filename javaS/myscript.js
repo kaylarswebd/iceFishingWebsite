@@ -1,19 +1,19 @@
 // news para show and hide function
 $(document).ready(function () {
   $("#news1").click(function () {
-    $("p.news1").hide();
+    $("div.news1").hide();
   });
   $("#news12").click(function () {
-    $("p.news1").show();
+    $("div.news1").show();
   });
 });
 
 $(document).ready(function () {
   $("#news2").click(function () {
-    $("p.news2").hide();
+    $("div.news2").hide();
   });
   $("#news22").click(function () {
-    $("p.news2").show();
+    $("div.news2").show();
   });
 });
 
