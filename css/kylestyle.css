@@ -235,13 +235,6 @@ div.tournament p {
        object-fit: scale-down;
   }
   /* product */
-  div.product {
-    background-color: white;
-    border-radius: 4px;
-  }
-  div.product h2 {
-    text-align: center;
-  }
   div.product p {
     text-indent: 12px;
   }
