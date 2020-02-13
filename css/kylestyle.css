@@ -86,9 +86,12 @@ div.product p {
 }
 
 div.product img {
-  width: 256px;
-  height: 144px;
-  margin-left: 16px;
+  padding: 4px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.product img:hover {
@@ -105,9 +108,12 @@ div.tournament h2 {
 }
 
 div.tournament img {
-  width: 256px;
-  height: 144px;
-  margin-left: 16px;
+  padding: 4px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.tournament img:hover {
