@@ -44,6 +44,15 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $("#comments1").click(function () {
+    $("div.comments").hide();
+  });
+  $("#comments12").click(function () {
+    $("div.comments").show();
+  });
+});
+
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
