@@ -124,6 +124,23 @@ div.tournament {
 
 // comment box
 
+// contact
+div.contact {
+    background-color: white;
+    border-radius: 4px;
+    h1 {
+        text-align: center;
+    }
+    .col-md-4 {
+        margin: 4px;
+    }
+    .col-md-10 {
+        margin: 4px;
+    }
+    .btn {
+        margin: 4px;
+    }
+}
 
 // saftey
 .saftey {

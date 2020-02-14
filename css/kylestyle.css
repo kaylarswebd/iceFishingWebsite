@@ -127,6 +127,27 @@ div.tournament p {
   text-indent: 12px;
 }
 
+div.contact {
+  background-color: white;
+  border-radius: 4px;
+}
+
+div.contact h1 {
+  text-align: center;
+}
+
+div.contact .col-md-4 {
+  margin: 4px;
+}
+
+div.contact .col-md-10 {
+  margin: 4px;
+}
+
+div.contact .btn {
+  margin: 4px;
+}
+
 .saftey {
   background-color: white;
   border-radius: 4px;
