@@ -12,11 +12,14 @@ $headercolor: rgb(44, 54, 54);
     background-color: $headercolor;
     text-decoration: underline;
     font-family: 'Noto Serif', serif;
-
 }
 
 div.col h1, h2, h3, h4, h5, p {
     padding: 8px;
+}
+
+button {
+    padding: 4px;
 }
 
 nav {
