@@ -57,7 +57,7 @@ div.news p {
 /* carousel */
 div.carouselcontainer {
   height: 550px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 div.carouselcontainer div.carousel-item img {
