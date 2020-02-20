@@ -147,6 +147,15 @@ div.contact .btn {
   margin: 4px;
 }
 
+div.contact button {
+  margin: 4px;
+}
+
+div.contact .com {
+  background-color: white;
+  border-radius: 4px;
+}
+
 .saftey {
   background-color: white;
   border-radius: 4px;
